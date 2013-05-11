@@ -1,0 +1,28 @@
+{
+  "name": "conga",
+  "version": "0.0.1",
+  "description": "MVC framework for node.js",
+  "directories": {
+    "test": "test"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/congajs/conga.git"
+  },
+  "keywords": [
+    "mvc"
+  ],
+  "author": "Marc Roulias",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+     "mocha": "1.9.0",
+     "should": "1.2.2"
+  },
+  "readmeFilename": "README.md"
+}
