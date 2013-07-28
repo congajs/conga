@@ -1,0 +1,27 @@
+doctype 5
+html(lang="en")
+  head
+    title Conga.js Demo!!!
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+    != assets('/css/all.css', 'css', ['/js/lib/bootstrap/dist/css/bootstrap.css', '/bundles/demo-bundle/css/styles.css'])
+
+    script(src='/socket.io/socket.io.js')
+
+    != assets('/js/lib.js', 'javascript', ['/js/lib/jquery/jquery.min.js','/bundles/conga-framework/js/conga.js'])
+    != assets('/js/src.js', 'javascript', ['/bundles/demo-bundle/js/*'])
+
+  body
+
+    include demo-bundle:includes/menu
+    
+    div.container
+     
+      div.content-container
+        block content 
+
+    != client_templates('app')
+
+    != conga_init('default')
+
+    != assets('/js/conga.plugins.js', 'javascript', ['/bundles/conga-socketio/js/conga-socketio.js'])

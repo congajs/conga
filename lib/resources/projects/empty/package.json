@@ -1,0 +1,30 @@
+{
+  "name": "##PROJECT_NAME",
+  "version": "0.0.1",
+  "description": "##PROJECT_NAME##",
+  "directories": {
+    "test": "test"
+  },
+  "main": "",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "dependencies": {
+    "bass-mongodb": "0.0.3",
+    "conga-assets": "0.0.1",
+    "conga-bass": "0.0.3",
+    "conga-bower": "0.0.1",
+    "conga-browserify": "0.0.1",
+    "conga-client-template": "0.0.1",
+    "conga-framework": "0.0.1",
+    "conga-jade": "0.0.1",
+    "conga-passport": "0.0.1",
+    "conga-pubsub": "0.0.1",
+    "conga-rest": "0.0.2",
+    "conga-socketio": "0.0.1",
+    "conga-validation": "0.0.1"
+  },
+  "devDependencies": {
+  },
+  "readmeFilename": "README.md"
+}

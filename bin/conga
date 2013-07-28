@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var conga = require('../lib/conga');
+conga.run();

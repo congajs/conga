@@ -1,0 +1,110 @@
+# include other config files
+imports:
+    - { resource : parameters.ini }
+    - { resource : bundles.yml }
+
+# the general framework settings
+framework:
+
+    # application settings
+    app:
+        host:  %app.http.host%
+        port:  %app.http.port%
+
+    # ssl settings
+    ssl:
+        enabled: false
+        key:     key.pem
+        cert:    cert.pem
+        ca:      ''
+        port:    %app.https.port%
+        handler: conga.ssl.handler.default
+        host:    %app.https.host%:%app.https.port%
+
+    # express.js settings
+    express:
+        view:
+            cache: true
+
+    # the loggers
+    logger:
+        default:
+            type: file
+            level: DEBUG
+            options:
+                filename:     %kernel.app_path%/logs/%kernel.environment%.log
+                max_log_size: 20480
+                backups:      3
+
+    # the web toolbar
+    toolbar:
+        enabled: true
+
+    # session config
+    session:
+        key:            conga.sid
+        secret:         %app.session.secret%
+        cookie_name:    congajs
+        lifetime:       360000
+        store:
+            type:       memory
+
+# assets
+assets:
+    enabled: true
+    
+    # version number to append to querystrings
+    version: v1.0
+
+    # templates to parse asset paths from
+    paths:
+        - demo-bundle:layout.jade
+
+# bower config
+bower:
+
+    # target directory in public where deps get installed
+    directory: js/lib
+
+    # dependencies to install
+    dependencies:
+        bootstrap:  "3.0.0-rc1"
+
+# bass odm
+bass:
+
+    # the adapters
+    adapters:
+         - bass-mongodb
+
+    # the db connections
+    connections:
+
+        mongodb.default:
+            adapter:  bass-mongodb
+            database: %mongodb.database%
+            host:     %mongodb.host%
+            port:     %mongodb.port%
+
+    # the managers
+    managers:
+
+        mongodb.default:
+            adapter:    bass-mongodb
+            connection: mongodb.default
+            documents:
+                demo-bundle: demo-bundle:model
+
+# rest serialization
+rest:
+
+    model:
+        paths:
+            - demo-bundle:model
+
+# model validation
+validation:
+
+    paths:
+        - demo-bundle:model
+

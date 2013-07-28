@@ -1,0 +1,11 @@
+imports:
+    - { resource : config.yml }
+    
+framework:
+  
+    logger:
+
+        default:
+            type: console
+            level: DEBUG
+            

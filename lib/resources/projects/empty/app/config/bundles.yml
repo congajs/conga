@@ -1,0 +1,18 @@
+# bundles to enable
+bundles:
+
+    # project bundles (from src/ directory)
+    - demo-bundle
+
+    # core conga bundles (from node_modules/ directory)
+    - conga-assets
+    - conga-bass
+    - conga-bower
+    - conga-browserify
+    - conga-client-template
+    - conga-jade
+    - conga-passport
+    - conga-pubsub
+    - conga-rest
+    - conga-socketio
+    - conga-validation

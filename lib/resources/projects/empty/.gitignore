@@ -1,0 +1,11 @@
+# app paths
+app/cache
+app/config/config.parameters.ini
+app/logs
+app/public/bundles
+app/public/js/lib
+
+# npm
+node_modules
+
+# random stuff
