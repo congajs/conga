@@ -9,7 +9,7 @@ Some Highlights:
 
 * Hierachical configuration system using YML
 * Annotation based routing/templating/security/etc.
-* Easy extendability through bundles
+* Easy extensibility through bundles
 * Built-in REST server
 * Socket.io server
 * Command line tools
@@ -77,7 +77,7 @@ The "src" directory contains all of the project specific bundles for your applic
 
 ## Bundle Structure
 
-The following is an exmple structure of a bundle:
+The following is an example structure of a bundle:
 
     |-- demo-bundle
         `-- lib
