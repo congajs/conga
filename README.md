@@ -7,8 +7,9 @@ It's aim is to provide a solid foundation of components to ease the development 
 
 Some Highlights:
 
-* Hierachical configuration system using YML
+* Hierarchical configuration system using YML
 * Annotation based routing/templating/security/etc.
+* Dependency Injection Container
 * Easy extensibility through bundles
 * Built-in REST server
 * Socket.io server
