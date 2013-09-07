@@ -27,7 +27,8 @@
     "inflect": "0.3.0",
     "supervisor": "0.5.2",
     "swig": "0.14.0",
-    "wrench": "1.4.4"
+    "wrench": "1.4.4",
+    "yamljs": "0.1.4"
   },
   "devDependencies": {
      "mocha": "1.9.0",
