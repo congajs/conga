@@ -1,11 +1,14 @@
 {
   "name": "conga",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "MVC framework for node.js",
   "directories": {
     "test": "test"
   },
   "main": "./index.js",
+  "bin": {
+    "conga": "./bin/conga"
+  },
   "scripts": {
     "test": "mocha test/*.js"
   },
