@@ -1,6 +1,6 @@
 {
   "name": "conga",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "MVC framework for node.js",
   "directories": {
     "test": "test"
