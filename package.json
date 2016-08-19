@@ -1,6 +1,6 @@
 {
   "name": "conga",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "MVC framework for node.js",
   "directories": {
     "test": "test"
@@ -27,12 +27,12 @@
     "fs-extra": "0.30.0",
     "inflect": "0.3.0",
     "supervisor": "0.5.2",
-    "swig": "0.14.0",
-    "yamljs": "0.1.4"
+    "swig": "1.4.2",
+    "yamljs": "0.2.8"
   },
   "devDependencies": {
-     "mocha": "1.9.0",
-     "should": "1.2.2"
+     "mocha": "3.0.2",
+     "should": "11.1.0"
   },
   "readmeFilename": "README.md"
 }
