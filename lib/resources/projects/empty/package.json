@@ -1,7 +1,9 @@
 {
   "name": "##PROJECT_NAME",
   "version": "0.0.1",
+  "private": true,
   "description": "##PROJECT_NAME##",
+  "license": "UNLICENSED",
   "directories": {
     "test": "test"
   },
