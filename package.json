@@ -1,6 +1,6 @@
 {
   "name": "conga",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "MVC framework for node.js",
   "directories": {
     "test": "test"
@@ -24,10 +24,10 @@
   "license": "MIT",
   "dependencies": {
     "commander": "0.6.1",
+    "fs-extra": "0.30.0",
     "inflect": "0.3.0",
     "supervisor": "0.5.2",
     "swig": "0.14.0",
-    "wrench": "1.4.4",
     "yamljs": "0.1.4"
   },
   "devDependencies": {
