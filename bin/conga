@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-
-var conga = require('../lib/conga');
-conga.run();
+const Conga = require('../lib/Conga');
+const c = new Conga();
+c.run();
