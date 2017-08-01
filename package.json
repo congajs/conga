@@ -1,6 +1,6 @@
 {
-  "name": "conga",
-  "version": "2.0.0-dev",
+  "name": "@conga/conga",
+  "version": "2.0.0",
   "description": "MVC framework for node.js",
   "directories": {
     "test": "test"
@@ -10,7 +10,6 @@
     "conga": "./bin/conga"
   },
   "scripts": {
-    "test": "mocha test/*.js"
   },
   "repository": {
     "type": "git",
@@ -23,17 +22,17 @@
   "author": "Marc Roulias",
   "license": "MIT",
   "dependencies": {
-    "@conga/framework": "^2.0.3-dev",
+    "@conga/framework": "^2.0.0",
     "blessed": "^0.1.81",
     "commander": "^2.11.0",
     "fs-extra": "^3.0.1",
     "glob": "^7.1.2",
     "inflect": "0.3.0",
+    "simple-git": "^1.75.0",
     "yamljs": "0.2.8"
   },
   "devDependencies": {
-    "mocha": "3.0.2",
-    "should": "11.1.0"
+
   },
   "engines": {
     "node": ">= 6.0.0"
