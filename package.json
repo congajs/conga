@@ -1,6 +1,6 @@
 {
   "name": "@conga/conga",
-  "version": "2.0.0-dev",
+  "version": "2.0.1",
   "description": "MVC framework for node.js",
   "directories": {
     "test": "test"
@@ -9,8 +9,7 @@
   "bin": {
     "conga": "./bin/conga"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/congajs/conga.git"
@@ -31,11 +30,9 @@
     "simple-git": "^1.75.0",
     "yamljs": "0.2.8"
   },
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "engines": {
-    "node": ">= 6.0.0"
+    "node": ">= 7.0.0"
   },
   "readmeFilename": "README.md"
 }
