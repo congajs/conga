@@ -1,6 +1,6 @@
 {
   "name": "@conga/conga",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "MVC framework for node.js",
   "directories": {
     "test": "test"
