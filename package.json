@@ -27,7 +27,7 @@
     "fs-extra": "^3.0.1",
     "glob": "^7.1.2",
     "inflect": "0.3.0",
-    "simple-git": "^1.75.0"
+    "simple-git": "^3.15.0"
   },
   "devDependencies": {},
   "engines": {
